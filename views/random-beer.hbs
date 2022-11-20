@@ -1,0 +1,13 @@
+<h4>random beer</h4>
+
+<img src='{{random.image_url}}' alt='' />
+<h2>{{random.name}}</h2>
+
+<textarea>{{random.description}}</textarea>
+<p>{{random.tagline}}</p>
+
+{{#each random.food_pairing}}
+  <p>{{this}}</p>
+{{/each}}
+
+<textarea>{{random.brewers_tips}}</textarea>
